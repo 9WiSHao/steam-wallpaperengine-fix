@@ -22,4 +22,4 @@
 
 小红车创意工坊里麻匪大佬有个壁纸是红龙女王，如果你搜的出来的话，那就应该是成功了
 
-## 如果好用，请别忘了给我点个小小的 star
+## 如果好用，请给我点个小小的 star [仓库地址](https://github.com/9WiSHao/steam-wallpaperengine-fix)
