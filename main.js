@@ -2,7 +2,7 @@
 // @name         steam-wallpaperEngine-fix
 // @namespace    http://tampermonkey.net/
 // @version      0.1.3
-// @description  经历事件后小红车创意工坊展示异常，但是发现web端只是隐藏了按钮并没有删除接口，所以写此脚本修复
+// @description  近期小红车一些限制级内容创意工坊软锁，可以通过网页端隐藏的后两个选项打开。此插件用于修复隐藏的后两个选项内容
 // @author       9WiSHao
 // @match        https://store.steampowered.com/account/preferences
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=steampowered.com
