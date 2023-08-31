@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         steam-wallpaperEngine-fix
 // @namespace    http://tampermonkey.net/
-// @version      0.1.3
+// @version      0.1.4
 // @description  近期小红车一些限制级内容创意工坊软锁，可以通过网页端隐藏的后两个选项打开。此插件用于修复隐藏的后两个选项内容
 // @author       9WiSHao
 // @match        https://store.steampowered.com/account/preferences
