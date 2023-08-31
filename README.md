@@ -10,9 +10,9 @@
 
 #### 使用方法：
 
-启用此脚本，然后去往 https://store.steampowered.com/account/preferences 页面，这是你的 steam 相关设置页面
+启用此脚本，然后去往 https://store.steampowered.com/account/preferences 页面，这是你的 steam 相关设置页面。
 脚本修复了后面两行的选项。根据需要的相关显示打上勾即可。
-打上勾之后别刷新页面，直接关闭窗口，然后去小红车看看效果
+打上勾之后别刷新页面，刷新页面会发现打上的勾没了这是正常现象，打完勾直接关闭窗口，然后去小红车看看效果
 
 ### 2023-8-31 经验证仍有效。
 

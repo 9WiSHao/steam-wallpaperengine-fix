@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         steam-wallpaperEngine-fix
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.3
 // @description  经历事件后小红车创意工坊展示异常，但是发现web端只是隐藏了按钮并没有删除接口，所以写此脚本修复
 // @author       9WiSHao
 // @match        https://store.steampowered.com/account/preferences
@@ -35,5 +35,8 @@
             <br>
             <a href="javascript:ViewTitlesWithDescriptors( 3 );">查看示例产品\t</a>
         `;
+		const tips = document.querySelector('#main_content > div.two_column.right > div:nth-child(2) > div.hspacer');
+		tips.textContent = `来自修复脚本的提示：最后两行打完勾之后刷新页面会重新没选中是正常现象。打完勾后不要刷新页面，直接关闭页面。此时直接去小红车搜索，比如打开限制级的情况下，搜 麻匪 红龙女王 能搜到的话，就说明修复成功了。`;
+		tips.style.fontSize = 'small';
 	};
 })();
