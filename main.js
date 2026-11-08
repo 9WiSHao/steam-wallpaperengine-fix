@@ -21,7 +21,7 @@
 			return;
 		}
 		fix1.classList.remove('account_setting_not_customer_facing');
-		fix1.querySelector('label.account_manage_checkbox').innerHTML = '频繁的裸露画面或色情内容';
+		fix1.querySelector('div.account_manage_subtitle').innerHTML = '频繁的裸露画面或色情内容';
 		fix1.querySelector('span.account_setting_parenthetical').innerHTML = `
             主要展示裸露画面或色情主题的游戏或内容。勾选此复选框即表示您确认自己已至少年满 18 周岁。
             <br>
@@ -29,14 +29,14 @@
         `;
 
 		fix2.classList.remove('account_setting_not_customer_facing');
-		fix2.querySelector('label.account_manage_checkbox').innerHTML = '仅限成人的色情内容';
+		fix2.querySelector('div.account_manage_subtitle').innerHTML = '仅限成人的色情内容';
 		fix2.querySelector('span.account_setting_parenthetical').innerHTML = `
             包含仅针对成人受众的性意味明显或露骨的游戏或内容。勾选此复选框即表示您确认自己已至少年满 18 周岁。
             <br>
             <a href="javascript:ViewTitlesWithDescriptors( 3 );">查看示例产品\t</a>
         `;
-		const tips = document.querySelector('#main_content > div.two_column.right > div:nth-child(2) > div.hspacer');
-		tips.textContent = `来自修复脚本的提示：最后两行打完勾之后刷新页面会重新没选中是正常现象。打完勾后不要刷新页面，直接关闭页面。此时直接去小红车搜索，比如打开限制级的情况下，搜 麻匪 红龙女王 能搜到的话，就说明修复成功了。`;
-		tips.style.fontSize = 'small';
+		document
+            .querySelector('#main_content > div.two_column.right > div:nth-child(2)')
+            .insertAdjacentHTML('beforeend', '<div style="font-size:small">来自修复脚本的提示：最后两行打完勾之后刷新页面会重新没选中是正常现象。打完勾后不要刷新页面，直接关闭页面。此时直接去小红车搜索，比如打开限制级的情况下，搜 麻匪 红龙女王 能搜到的话，就说明修复成功了。</div>');
 	};
 })();
